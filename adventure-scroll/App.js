@@ -59,27 +59,6 @@ export default function App() {
               headerShown: false,
             }}
           />
-          <Stack.Screen
-            name="ActivityAlphaScreen"
-            component={ActivityAlpha}
-            options={{
-              headerShown: false,
-            }}
-          />
-          <Stack.Screen
-            name="ActivitySkyScreen"
-            component={ActivitySky}
-            options={{
-              headerShown: false,
-            }}
-          />
-          <Stack.Screen
-            name="HomePapImage"
-            component={HomePapImage}
-            options={{
-              headerShown: false,
-            }}
-          />
         </Stack.Navigator>
       </SafeAreaProvider>
     </NavigationContainer>
